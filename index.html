@@ -36,7 +36,8 @@
 
         .showcase-item {
             margin-bottom: 80px;
-            margin-left: 80px;
+            padding-left: 50px;
+            /* margin-right:0px; */
         }
 
         .showcase-title {
@@ -51,7 +52,7 @@
         .animated-text {
             font-family: 'FlockingVariable', sans-serif;
             font-variation-settings: 'wght' 100, 'GRAV' 100;
-            font-size: 160px;
+            font-size: 140px;
             line-height: 1.2;
             display: inline-block;
         }
@@ -237,14 +238,19 @@
                 font-size: 40px;
             }
         }
-        svg path{
+        /* svg path{
             fill:black;
-        }
-       
+        } */
+       .landing{
+            width: 100%;
+            margin: 0 12vw;
+            font-size: 15vw;
+            
+       }
     </style>
 </head>
 <body>
-   <div style="margin:-5vh 0 10vh 0;">
+   <!-- <div style="margin:-5vh 0 10vh 0;">
   <svg width="85vw" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1703 950">
   <defs>
     <style>
@@ -280,32 +286,28 @@
   </g>
 
   </svg>
-</div>
-    
-    <div class="showcase">
-        <!-- Animation Wave Effect -->
-        <div class="showcase-item">
-            <div class="showcase-title">Wave Effect</div>
-            <div class="animated-text">
-                <span class="wave-char">F</span><span class="wave-char">L</span><span class="wave-char">O</span><span class="wave-char">C</span><span class="wave-char">K</span><span class="wave-char">I</span><span class="wave-char">N</span><span class="wave-char">G</span>
-            </div>
-          
-        </div>
-
-          <!-- Animation Gravity Axis -->
-        <div class="showcase-item">
-            <div class="showcase-title">Gravity Axis</div>
-            <div class="animated-text">
+</div> -->
+  
+<!-- landing large animation -->
+<div class="landing" style="margin: 10vh 0 20vh 0;">
+            <div class="animated-text landing">
                 <span class="gravity-char">F</span><span class="gravity-char">L</span><span class="gravity-char">O</span><span class="gravity-char">C</span><span class="gravity-char">K</span><span class="gravity-char">I</span><span class="gravity-char">N</span><span class="gravity-char">G</span>
             </div>
              <br>
-               <div class="animated-text">
+               <div class="animated-text landing">
                 <span class="gravity-reverse">V</span><span class="gravity-reverse">A</span><span class="gravity-reverse">R</span><span class="gravity-reverse">I</span><span class="gravity-reverse">A</span><span class="gravity-reverse">B</span><span class="gravity-reverse">L</span><span class="gravity-reverse">E</span>
             </div>
-            <!-- <br>
+</div>
+
+    <div class="showcase">
+      
+          <!-- Animation Gravity Axis -->
+        <div class="showcase-item">
+            <div class="showcase-title">Gravity Axis</div>
+            <br>
                <div class="animated-text">
                 <span class="gravity-reverse">G</span><span class="gravity-reverse">R</span><span class="gravity-reverse">A</span><span class="gravity-reverse">V</span><span class="gravity-reverse">I</span><span class="gravity-reverse">T</span><span class="gravity-reverse">Y</span>
-            </div> -->
+            </div>
         </div>
         
  <!-- Animation Weight Axis -->
@@ -316,7 +318,21 @@
             </div>
         </div>
 
-      
+      <!-- Animation: Particle Size effect -->
+          <div class="showcase-item">
+            <div class="showcase-title">Particle Size effect</div>
+            <div class="animated-text">
+                <span class="ptsz-char">P</span><span class="ptsz-char">A</span><span class="ptsz-char">R</span><span class="ptsz-char">T</span><span class="ptsz-char">I</span><span class="ptsz-char">C</span><span class="ptsz-char">L</span><span class="ptsz-char">E</span><span class="ptsz-char">S</span><span class="ptsz-char">I</span><span class="ptsz-char">Z</span><span class="ptsz-char">E</span>
+            </div>
+        </div>
+  <!-- Animation Wave Effect -->
+        <div class="showcase-item">
+            <div class="showcase-title">Wave Effect</div>
+            <div class="animated-text">
+                <span class="wave-char">F</span><span class="wave-char">L</span><span class="wave-char">O</span><span class="wave-char">C</span><span class="wave-char">K</span><span class="wave-char">I</span><span class="wave-char">N</span><span class="wave-char">G</span>
+            </div>
+          
+        </div>
 
         <!-- Animation Pulse -->
         <div class="showcase-item">
@@ -333,13 +349,7 @@
                 <span class="alt-char">V</span><span class="alt-char">A</span><span class="alt-char">R</span><span class="alt-char">I</span><span class="alt-char">A</span><span class="alt-char">B</span><span class="alt-char">L</span><span class="alt-char">E</span>
             </div>
         </div>
-<!-- Animation: Particle Size effect -->
-          <div class="showcase-item">
-            <div class="showcase-title">Particle Size effect</div>
-            <div class="animated-text">
-                <span class="ptsz-char">P</span><span class="ptsz-char">A</span><span class="ptsz-char">R</span><span class="ptsz-char">T</span><span class="ptsz-char">I</span><span class="ptsz-char">C</span><span class="ptsz-char">L</span><span class="ptsz-char">E</span><span class="ptsz-char">S</span><span class="ptsz-char">I</span><span class="ptsz-char">Z</span><span class="ptsz-char">E</span>
-            </div>
-        </div>
+
     </div>
 </body>
 </html>
